@@ -1,0 +1,98 @@
+.slider-left-side {
+    padding: 140px 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider-left-side {
+    padding: 0;
+  }
+
+  .margin-0 {
+    margin: 0;
+  }
+}
+
+.e-shoper {
+    color: #FE980F;
+    font-size: 43px;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 768px) {
+    .e-shoper {
+        color: #FE980F;
+        font-size: 30px;
+        line-height: 1;
+    }
+    .carousel-section {
+        margin: 50px 0 0 20px;
+    }
+}
+
+.e-shopper-span {
+	color: #B4B1AB;
+	font-family: 'Abel', sans-serif;
+}
+
+.e-shopper-h2 {
+    font-weight: bold;
+    font-size: 28px;
+    padding: 10px 0;
+}
+
+@media only screen and (max-width: 768px){
+    .e-shopper-h2 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+}
+    
+
+.carousel-example-indicators {
+	border-radius: 100%;
+}
+
+.my-carousel-control {
+	font-color: #000; 
+}
+
+
+
+.my-carousel-indecators {
+	li {
+		max-width: 15px;
+		max-height: 5px;
+	}
+}
+
+.my-btn {
+    background-color: #FE980F;
+    border: none;
+    border-radius: initial;
+    margin: 20px 0;
+
+    &:hover {
+    	background-color: #FE980F;
+    	border: none;
+    	border-radius: initial;
+    }
+
+    &:active {
+    	background-color: #FE980F;
+    	border: none;
+    	border-radius: initial;	
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .my-btn {
+        margin: 5px 0;
+        padding: 12px 20px;
+        font-size: 14px;
+    }    
+}
